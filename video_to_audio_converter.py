@@ -166,7 +166,7 @@ class VideoToAudioApp(QMainWindow):
 
     def open_file_dialog(self):
         options = QFileDialog.Options()
-        files, _ = QFileDialog.getOpenFileNames(self, "Select Video Files", "", "Video Files (*.mp4 *.avi *.mov *.mkv *.webm)", options=options)
+        files, _ = QFileDialog.getOpenFileNames(self, "Select Video Files", "", "Video Files (*.mp4 *.avi *.mov *.mkv *.webm *m4a)", options=options)
         if files:
             self.video_paths = files
             self.video_list.clear()
