@@ -14,19 +14,16 @@ Support for multiple video files with batch conversion.
 
 How to RUN:
 
-1. create create a virtual environment:
+* create create a virtual environment:
     Mac: 1. python3 -m venv venv
          2. source venv/bin/activate
     
     windows: 1. python -m venv venv
              2. venv\Scripts\activate.bat
-2. pip install -r requirement.txt 
 
-3. kindly check using pip freeze if FFmpeg version is right or updated recommend version of python = 3.12+
+*  RUN : python3 video_to_audio_converter.py (Mac) or python video_to_audio_converter.py (windows)
 
-4.  RUN : python3 video_to_audio_converter.py (Mac) or python video_to_audio_converter.py (windows)
-
-5. use GUI to navigate and load files to convert --> output audio type(mp3,wav,aac) --> Bitrate (higher the better) --> output folder --> convert --> Have a smoke
+* Use GUI to navigate and load files to convert --> output audio type(mp3,wav,aac) --> Bitrate (higher the better) --> output folder --> convert --> Have a smoke
 
 Contribute:
 
